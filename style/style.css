@@ -1,0 +1,36 @@
+* {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.font-color{
+    color: rgb(177, 175, 175);
+}
+.border-color{
+   border-color: #B68C5A;
+}
+.bg-color{
+    background-color: #B68C5A;
+}
+.contact-bg{
+    background: #F3F3F3;
+}
+.img-size{
+    height: 20%;
+    
+}
+.hover-col:hover{
+    background-color: rgb(241, 241, 241);
+}
+.slider{
+    padding-bottom: 12.25rem!important;
+    visibility: visible!important;
+}
+.carousel-button{
+    margin-bottom: 11rem!important;
+}
+.accordion-button::after{
+    background-image: url("../images/plus.png")!important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("../images/minus.png")!important;
+}
